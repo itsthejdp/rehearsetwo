@@ -3,6 +3,10 @@ import React from 'react'
 const manilaCities = ["Bulacan", "Caloocan", "Navotas", "Pasig", "Parañaque", "Quezon City", "San Juan", "Taguig"]
 
 
+function handleClick () {
+  alert('You Clicked Me!')
+}
+
 
 export default function Form() {
   const cityOption = manilaCities.map((city, index) => <option key={index} value={city}> {city} </option>)
@@ -19,7 +23,7 @@ export default function Form() {
         </select>
         <label htmlFor=""> Studio Image </label>
         <span className="m-1"><input type="file" name="Hey" id="" /></span>
-        <button className="rounded-full bg-sky-50 p-2 m-1">Add Studio</button>
+        <button onClick={handleClick} className="rounded-full bg-sky-50 p-2 m-1">Add Studio</button>
       </form>
     </div>
   );
