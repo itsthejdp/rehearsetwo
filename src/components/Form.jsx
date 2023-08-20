@@ -3,9 +3,11 @@ import React from 'react'
 const manilaCities = ["Bulacan", "Caloocan", "Navotas", "Pasig", "Parañaque", "Quezon City", "San Juan", "Taguig"]
 
 
-function handleClick () {
+const handleClick = (e => {
+  e.preventDefault();
   alert('You Clicked Me!')
 }
+)
 
 
 export default function Form() {
@@ -17,7 +19,7 @@ export default function Form() {
         <input type="text" name="Hey" id="" />
         <label htmlFor="">Address </label>
         <input type="text" name="Hey" id="" />
-        <label htmlFor=""> Studio Location </label>
+        <label htmlFor=""> City </label>
         <select>
           {cityOption}
         </select>

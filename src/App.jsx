@@ -2,7 +2,7 @@ import React from 'react';
 import About from './components/About'
 import Nav from './components/Nav'
 import Form from './components/Form';
-
+import StudioList from './components/Studios/StudioList'
 
 
 export default function App() {
@@ -11,6 +11,7 @@ export default function App() {
       <Nav/>
       <About/>
       <Form/>
+      <StudioList/>
     </div>
   )
 }
