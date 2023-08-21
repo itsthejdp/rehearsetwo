@@ -1,4 +1,6 @@
 import React from 'react'
+import Card from '../Card';
+import Studio from './Studio';
 
 const studios = [
     "Bogchi Studios",
@@ -24,8 +26,14 @@ const studios = [
     city: "Quezon City"
   }]
   
-  export default function StudioList() {
-    const studioList = studios.map(studio => <li>{studio}</li>);
-    return <ul>{studioList}</ul>
+  export default function StudioList({name, children}) {
+    const studioList = studyas.map(studio => <Studio name={studio.name} key={studio.id}>{studio}</Studio>);
+    return (
+      <div>
+        <Card>
+            {studioList}
+        </Card>
+      </div>
+    )
   }
   

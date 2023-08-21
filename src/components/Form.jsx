@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const manilaCities = ["Bulacan", "Caloocan", "Navotas", "Pasig", "Parañaque", "Quezon City", "San Juan", "Taguig"]
 
