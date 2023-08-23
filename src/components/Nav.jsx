@@ -1,6 +1,7 @@
 import React from 'react'
+import { useState } from 'react'
 
-export default function Nav() {
+export default function Nav({toggleForm}) {
   return (
     <nav className="bg-blue-200 flex justify-between items-center">
       <div className='flex items-center'>
@@ -13,7 +14,7 @@ export default function Nav() {
       <ul className='flex space-x-4'>
           <li>Home</li>
           <li>About</li>
-          <button className="bg-white rounded-lg px-3">Add a Studio</button>
+          <button className="bg-white rounded-lg px-3" onClick={toggleForm} >Add a Studio</button>
           <li className="pr-2">Donate</li>
       </ul>
     </nav>
