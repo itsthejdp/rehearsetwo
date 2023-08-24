@@ -2,6 +2,8 @@ import React from 'react'
 import Card from '../Card';
 import Studio from './Studio';
 import { useState } from 'react';
+import './studioData'
+
 
 const studios = [
     "Bogchi Studios",
