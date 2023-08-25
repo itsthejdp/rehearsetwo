@@ -24,7 +24,7 @@ const studios = [
     id: 1,
     name: "Meadowlark Productions",
     city: "Caloocan City",
-    imgURL: "https://www.ipr.edu/wp-content/uploads/2020/02/music-studio-768x432.jpg",
+    imgURL: "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
     description: "An amazing, innovative studio, run by a young professional autodidact."
   },
   {
