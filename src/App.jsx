@@ -5,6 +5,7 @@ import Hero from './components/Studios/Hero';
 import Form from './components/Form';
 import StudioList from './components/Studios/StudioList'
 import { useState } from 'react';
+import NewStudio from './components/Studios/NewStudio';
 
 
 export default function App() {
@@ -13,12 +14,18 @@ export default function App() {
     setIsFormVisible(!isFormVisible);
   }
 
+  const addStudioHandler = (studio) => {
+    console.log('In App.js')
+    console.log(studio);
+  }
+
 
   return (
     <div>
       <Nav toggleForm={toggleFormVisibility}/>
+      <NewStudio onAddStudio={addStudioHandler}/>
       <Hero/>
-      <Form isVisible={isFormVisible} />
+      <Form onSaveStudioData={addStudioHandler} isVisible={isFormVisible} />
       <StudioList/>
     </div>
   )
