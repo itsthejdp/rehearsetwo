@@ -3,9 +3,6 @@ import { useState } from 'react';
 import './Studios/studioData'
 
 
-
-
-
 export default function Form( props ) {
   const manilaCities = ["Bulacan", "Caloocan", "Navotas", "Pasig", "Parañaque", "Quezon City", "San Juan", "Taguig"];
 

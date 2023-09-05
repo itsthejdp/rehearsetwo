@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
+import Search from './Studios/Search'
 
 export default function Nav({toggleForm}) {
   return (
@@ -14,8 +15,9 @@ export default function Nav({toggleForm}) {
       <ul className='flex space-x-4'>
           <li>Home</li>
           <li>About</li>
+          <li>Studios</li>
           <button className="bg-white rounded-lg px-3" onClick={toggleForm} >Add a Studio</button>
-          <input type="text" name="Search" id="search" placeholder='Search for a studio...' />
+          <Search />
           <li className="pr-2">Donate</li>
       </ul>
     </nav>
