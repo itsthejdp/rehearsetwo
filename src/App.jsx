@@ -6,6 +6,7 @@ import Form from './components/Form';
 import StudioList from './components/Studios/StudioList'
 import { useState } from 'react';
 import NewStudio from './components/Studios/NewStudio';
+import Social from './components/Studios/Social';
 
 
 export default function App() {
@@ -27,6 +28,7 @@ export default function App() {
       <Hero/>
       <Form onSaveStudioData={addStudioHandler} isVisible={isFormVisible} />
       <StudioList/>
+      <Social/>
     </div>
   )
 }

@@ -19,6 +19,7 @@ export default function Nav({toggleForm}) {
           <button className="bg-white rounded-lg px-3" onClick={toggleForm} >Add a Studio</button>
           <Search />
           <li className="pr-2">Donate</li>
+          <li><a href="">Post a Band Listing</a></li>
       </ul>
     </nav>
   )
