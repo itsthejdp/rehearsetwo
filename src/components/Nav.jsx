@@ -16,6 +16,7 @@ export default function Nav({toggleForm}) {
           <li>Home</li>
           <li>About</li>
           <li>Studios</li>
+          <li>Sell Your Instrument</li>
           <button className="bg-white rounded-lg px-3" onClick={toggleForm} >Add a Studio</button>
           <Search />
           <li className="pr-2">Donate</li>
