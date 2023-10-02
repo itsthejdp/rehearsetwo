@@ -27,7 +27,6 @@ export default function App() {
       <NewStudio onAddStudio={addStudioHandler}/>
       <Hero/>
       <Form onSaveStudioData={addStudioHandler} isVisible={isFormVisible} />
-      <StudioList/>
       <Social/>
     </div>
   )
