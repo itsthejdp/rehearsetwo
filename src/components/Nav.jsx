@@ -16,7 +16,7 @@ export default function Nav({toggleForm}) {
           <button className="bg-white rounded-lg px-3" onClick={toggleForm} >Log In</button>
           <button className="bg-white rounded-lg px-3" onClick={toggleForm} >Sign Up</button>
           <Search />
-          <li className="pr-2">Donate</li>
+          <li className="pr-2">Donate to a Store</li>
           <li><a href="">Post a Band Listing</a></li>
       </ul>
     </nav>
