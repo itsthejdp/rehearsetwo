@@ -11,7 +11,7 @@ export default function Nav({toggleForm}) {
       <ul className='flex space-x-4'>
           <li>Home</li>
           <li>About Circular</li>
-          <li>Catalog</li>
+          <li>Cataloge</li>
           <li>Return Your Product</li>
           <button className="bg-white rounded-lg px-3" onClick={toggleForm} >Log In</button>
           <button className="bg-white rounded-lg px-3" onClick={toggleForm} >Sign Up</button>
